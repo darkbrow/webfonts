@@ -162,7 +162,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local('Apple SD Gothic Neo'), local('Helvetica Neue'),
+  src: local('AppleSDGothicNeo-Regular'), local('HelveticaNeue'),
        url('https://raw.githubusercontent.com/darkbrow/webfonts/main/woff2/notosanskr400.woff2') format('woff2');
   unicode-range: U+0000-FFFF;
 }
@@ -171,7 +171,7 @@
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: local('Apple SD Gothic Neo'), local('Helvetica Neue'),
+  src: local('AppleSDGothicNeo-Bold'), local('HelveticaNeue-Bold'),
        url('https://raw.githubusercontent.com/darkbrow/webfonts/main/woff2/notosanskr700.woff2') format('woff2');
   unicode-range: U+0000-FFFF;
 }
@@ -216,6 +216,14 @@
   font-weight: 400;
   font-display: swap;
   src: url('https://raw.githubusercontent.com/darkbrow/webfonts/main/woff2/notoserifkr400.woff2') format('woff2');
+  unicode-range: U+0000-FFFF;
+}
+@font-face {
+  font-family: 'AppleMyungjo';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('https://raw.githubusercontent.com/darkbrow/webfonts/main/woff2/notoserifkr700.woff2') format('woff2');
   unicode-range: U+0000-FFFF;
 }
 
@@ -283,7 +291,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local('Monaco for Powerline'), local('Monaco'), 
+  src: local('MonacoPL-Regular'), local('Monaco'), 
        url('https://raw.githubusercontent.com/darkbrow/webfonts/main/woff2/MonacoPL-Regular.woff2') format('woff2');
   unicode-range:
     U+0020-007E,          /* 기본 라틴 (ASCII) */
@@ -312,14 +320,15 @@
   font-style: italic;
   font-weight: 400;
   font-display: swap;
-  src: url('https://raw.githubusercontent.com/darkbrow/webfonts/main/woff2/MonacoPL-Italic.woff2') format('woff2');
+  src: local('MonacoPL-Italic'), local('Monaco'),
+       url('https://raw.githubusercontent.com/darkbrow/webfonts/main/woff2/MonacoPL-Italic.woff2') format('woff2');
 }
 @font-face {
   font-family: 'Monaco';
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: local('Monaco for Powerline'), local('Monaco'), 
+  src: local('MonacoPL-Bold'), local('Monaco'), 
        url('https://raw.githubusercontent.com/darkbrow/webfonts/main/woff2/MonacoPL-Bold.woff2') format('woff2');
   unicode-range:
     U+0020-007E,          /* 기본 라틴 (ASCII) */
@@ -348,7 +357,8 @@
   font-style: italic;
   font-weight: 700;
   font-display: swap;
-  src: url('https://raw.githubusercontent.com/darkbrow/webfonts/main/woff2/MonacoPL-BoldItalic.woff2') format('woff2');
+  src: local('MonacoPL-BoldItalic'), local('Monaco'),
+       url('https://raw.githubusercontent.com/darkbrow/webfonts/main/woff2/MonacoPL-BoldItalic.woff2') format('woff2');
 }
 
 @font-face {
@@ -356,7 +366,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local('Consolas for Powerline'), local('Consolas'), 
+  src: local('ConsolasPL-Regular'), local('Consolas'), 
        url('https://raw.githubusercontent.com/darkbrow/webfonts/main/woff2/ConsolasPL.woff2') format('woff2');
   unicode-range:
     U+0020-007E,          /* 기본 라틴 (ASCII) */
@@ -385,14 +395,15 @@
   font-style: italic;
   font-weight: 400;
   font-display: swap;
-  src: url('https://raw.githubusercontent.com/darkbrow/webfonts/main/woff2/ConsolasPL-Italic.woff2') format('woff2');
+  src:  local('ConsolasPL-Italic'), local('Consolas'),
+        url('https://raw.githubusercontent.com/darkbrow/webfonts/main/woff2/ConsolasPL-Italic.woff2') format('woff2');
 }
 @font-face {
   font-family: 'Consolas';
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: local('Consolas for Powerline'), local('Consolas'), 
+  src: local('ConsolasPL-Bold'), local('Consolas'), 
        url('https://raw.githubusercontent.com/darkbrow/webfonts/main/woff2/ConsolasPL-Bold.woff2') format('woff2');
   unicode-range:
     U+0020-007E,          /* 기본 라틴 (ASCII) */
@@ -421,7 +432,16 @@
   font-style: italic;
   font-weight: 700;
   font-display: swap;
-  src: url('https://raw.githubusercontent.com/darkbrow/webfonts/main/woff2/ConsolasPL-BoldItalic.woff2') format('woff2');
+  src:  local('ConsolasPL-BoldItalic'), local('Consolas'),
+        url('https://raw.githubusercontent.com/darkbrow/webfonts/main/woff2/ConsolasPL-BoldItalic.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('https://raw.githubusercontent.com/darkbrow/webfonts/main/woff2/notosanskr400.woff2') format('woff2');
 }
 
 html, body {
