@@ -7,6 +7,15 @@
 // Your CSS as text
 var styles = `
 @font-face {
+  font-family: "Pretendard Variable";
+  font-weight: 45 920;
+  font-style: normal;
+  font-display: swap;
+  src: url('https://raw.githubusercontent.com/orioncactus/pretendard/main/packages/pretendard/dist/web/variable/woff2/PretendardVariable.woff2')
+    format("woff2-variations");
+}
+
+@font-face {
   font-family: 'NanumGothic';
   font-style: normal;
   font-weight: 400;
@@ -168,7 +177,7 @@ var styles = `
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local('Apple SD Gothic Neo'), local('Helvetica Neue'),
+  src: local('AppleSDGothicNeo-Regular'), local('HelveticaNeue'),
        url('https://raw.githubusercontent.com/darkbrow/webfonts/main/woff2/notosanskr400.woff2') format('woff2');
   unicode-range: U+0000-FFFF;
 }
@@ -177,7 +186,7 @@ var styles = `
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: local('Apple SD Gothic Neo'), local('Helvetica Neue'),
+  src: local('AppleSDGothicNeo-Bold'), local('HelveticaNeue-Bold'),
        url('https://raw.githubusercontent.com/darkbrow/webfonts/main/woff2/notosanskr700.woff2') format('woff2');
   unicode-range: U+0000-FFFF;
 }
@@ -224,6 +233,14 @@ var styles = `
   src: url('https://raw.githubusercontent.com/darkbrow/webfonts/main/woff2/notoserifkr400.woff2') format('woff2');
   unicode-range: U+0000-FFFF;
 }
+@font-face {
+  font-family: 'AppleMyungjo';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('https://raw.githubusercontent.com/darkbrow/webfonts/main/woff2/notoserifkr700.woff2') format('woff2');
+  unicode-range: U+0000-FFFF;
+}
 
 @font-face {
   font-family: 'Batang';
@@ -264,7 +281,7 @@ var styles = `
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local('Malgun Gothic'), local('MalgunGothic'),
+  src: local('Malgun Gothic'), local('MalgunGothic'), 
        url('https://raw.githubusercontent.com/darkbrow/webfonts/main/woff2/MalgunGothic.woff2') format('woff2');
 }
 @font-face {
@@ -272,7 +289,7 @@ var styles = `
   font-style: normal;
   font-weight: 350;
   font-display: swap;
-  src: local('Malgun Gothic Semilight'), local('MalgunGothic-Semilight'),
+  src: local('Malgun Gothic Semilight'), local('MalgunGothic-Semilight'), 
        url('https://raw.githubusercontent.com/darkbrow/webfonts/main/woff2/MalgunGothic-Semilight.woff2') format('woff2');
 }
 @font-face {
@@ -280,7 +297,7 @@ var styles = `
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: local('Malgun Gothic Bold'), local('MalgunGothicBold'),
+  src: local('Malgun Gothic Bold'), local('MalgunGothicBold'), 
        url('https://raw.githubusercontent.com/darkbrow/webfonts/main/woff2/MalgunGothicBold.woff2') format('woff2');
 }
 
@@ -289,7 +306,7 @@ var styles = `
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local('Monaco for Powerline'), local('Monaco'),
+  src: local('MonacoPL-Regular'), local('Monaco'), 
        url('https://raw.githubusercontent.com/darkbrow/webfonts/main/woff2/MonacoPL-Regular.woff2') format('woff2');
   unicode-range:
     U+0020-007E,          /* 기본 라틴 (ASCII) */
@@ -318,14 +335,15 @@ var styles = `
   font-style: italic;
   font-weight: 400;
   font-display: swap;
-  src: url('https://raw.githubusercontent.com/darkbrow/webfonts/main/woff2/MonacoPL-Italic.woff2') format('woff2');
+  src: local('MonacoPL-Italic'), local('Monaco'),
+       url('https://raw.githubusercontent.com/darkbrow/webfonts/main/woff2/MonacoPL-Italic.woff2') format('woff2');
 }
 @font-face {
   font-family: 'Monaco';
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: local('Monaco for Powerline'), local('Monaco'),
+  src: local('MonacoPL-Bold'), local('Monaco'), 
        url('https://raw.githubusercontent.com/darkbrow/webfonts/main/woff2/MonacoPL-Bold.woff2') format('woff2');
   unicode-range:
     U+0020-007E,          /* 기본 라틴 (ASCII) */
@@ -354,7 +372,8 @@ var styles = `
   font-style: italic;
   font-weight: 700;
   font-display: swap;
-  src: url('https://raw.githubusercontent.com/darkbrow/webfonts/main/woff2/MonacoPL-BoldItalic.woff2') format('woff2');
+  src: local('MonacoPL-BoldItalic'), local('Monaco'),
+       url('https://raw.githubusercontent.com/darkbrow/webfonts/main/woff2/MonacoPL-BoldItalic.woff2') format('woff2');
 }
 
 @font-face {
@@ -362,7 +381,7 @@ var styles = `
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local('Consolas for Powerline'), local('Consolas'),
+  src: local('ConsolasPL-Regular'), local('Consolas'), 
        url('https://raw.githubusercontent.com/darkbrow/webfonts/main/woff2/ConsolasPL.woff2') format('woff2');
   unicode-range:
     U+0020-007E,          /* 기본 라틴 (ASCII) */
@@ -391,14 +410,15 @@ var styles = `
   font-style: italic;
   font-weight: 400;
   font-display: swap;
-  src: url('https://raw.githubusercontent.com/darkbrow/webfonts/main/woff2/ConsolasPL-Italic.woff2') format('woff2');
+  src:  local('ConsolasPL-Italic'), local('Consolas'),
+        url('https://raw.githubusercontent.com/darkbrow/webfonts/main/woff2/ConsolasPL-Italic.woff2') format('woff2');
 }
 @font-face {
   font-family: 'Consolas';
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: local('Consolas for Powerline'), local('Consolas'),
+  src: local('ConsolasPL-Bold'), local('Consolas'), 
        url('https://raw.githubusercontent.com/darkbrow/webfonts/main/woff2/ConsolasPL-Bold.woff2') format('woff2');
   unicode-range:
     U+0020-007E,          /* 기본 라틴 (ASCII) */
@@ -427,11 +447,20 @@ var styles = `
   font-style: italic;
   font-weight: 700;
   font-display: swap;
-  src: url('https://raw.githubusercontent.com/darkbrow/webfonts/main/woff2/ConsolasPL-BoldItalic.woff2') format('woff2');
+  src:  local('ConsolasPL-BoldItalic'), local('Consolas'),
+        url('https://raw.githubusercontent.com/darkbrow/webfonts/main/woff2/ConsolasPL-BoldItalic.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('https://raw.githubusercontent.com/darkbrow/webfonts/main/woff2/notosanskr400.woff2') format('woff2');
 }
 
 html, body {
-  font-family: 'Pretendard Variable', 'Noto Sans KR', 'Malgun Gothic', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Noto Sans KR', 'Pretendard Variable', 'Malgun Gothic', -apple-system, BlinkMacSystemFont, sans-serif;
   /* -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility; */
 }
@@ -441,11 +470,6 @@ pre, code, .blob-code, .blob-code-marker {
   font-size: 0.9em !important;
 }
 `
-
-const link = document.createElement("link");
-link.rel = "stylesheet";
-link.href = "https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css";
-document.head.appendChild(link);
 
 var styleSheet = document.createElement("style")
 styleSheet.innerText = styles
