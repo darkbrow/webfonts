@@ -1,4 +1,11 @@
-@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css");
+@font-face {
+  font-family: "Pretendard Variable";
+  font-weight: 45 920;
+  font-style: normal;
+  font-display: swap;
+  src: url('https://raw.githubusercontent.com/orioncactus/pretendard/main/packages/pretendard/dist/web/variable/woff2/PretendardVariable.woff2')
+    format("woff2-variations");
+}
 
 @font-face {
   font-family: 'NanumGothic';
@@ -445,7 +452,7 @@
 }
 
 html, body {
-  font-family: 'Pretendard Variable', 'Noto Sans KR', 'Malgun Gothic', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Noto Sans KR', 'Pretendard Variable', 'Malgun Gothic', -apple-system, BlinkMacSystemFont, sans-serif;
   /* -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility; */
 }
