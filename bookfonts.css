@@ -1,0 +1,104 @@
+@font-face {
+  font-family: "RIDIBatang";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url('https://raw.githubusercontent.com/darkbrow/webfonts/refs/heads/main/woff2/RIDIBatang.woff2')
+    format("woff2");
+}
+
+@font-face {
+  font-family: "MaruBuri";
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+  src: url('https://raw.githubusercontent.com/darkbrow/webfonts/refs/heads/main/woff2/MaruBuri-ExtraLight.woff2')
+    format("woff2");
+}
+@font-face {
+  font-family: "MaruBuri";
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  src: url('https://raw.githubusercontent.com/darkbrow/webfonts/refs/heads/main/woff2/MaruBuri-Light.woff2')
+    format("woff2");
+}
+@font-face {
+  font-family: "MaruBuri";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url('https://raw.githubusercontent.com/darkbrow/webfonts/refs/heads/main/woff2/MaruBuri-Regular.woff2')
+    format("woff2");
+}
+@font-face {
+  font-family: "MaruBuri";
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  src: url('https://raw.githubusercontent.com/darkbrow/webfonts/refs/heads/main/woff2/MaruBuri-SemiBold.woff2')
+    format("woff2");
+}
+@font-face {
+  font-family: "MaruBuri";
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url('https://raw.githubusercontent.com/darkbrow/webfonts/refs/heads/main/woff2/MaruBuri-Bold.woff2')
+    format("woff2");
+}
+
+@font-face {
+  font-family: "KoPub Batang";
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  src: url('https://raw.githubusercontent.com/darkbrow/webfonts/refs/heads/main/woff2/KoPubWorld Batang Light.woff2')
+    format("woff2");
+}
+@font-face {
+  font-family: "KoPub Batang";
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  src: url('https://raw.githubusercontent.com/darkbrow/webfonts/refs/heads/main/woff2/KoPubWorld Batang Medium.woff2')
+    format("woff2");
+}
+@font-face {
+  font-family: "KoPub Batang";
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url('https://raw.githubusercontent.com/darkbrow/webfonts/refs/heads/main/woff2/KoPubWorld Batang Bold.woff2')
+    format("woff2");
+}
+
+@font-face {
+  font-family: "KoPub Dotum";
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  src: url('https://raw.githubusercontent.com/darkbrow/webfonts/refs/heads/main/woff2/KoPubWorld Dotum Light.woff2')
+    format("woff2");
+}
+@font-face {
+  font-family: "KoPub Dotum";
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  src: url('https://raw.githubusercontent.com/darkbrow/webfonts/refs/heads/main/woff2/KoPubWorld Dotum Medium.woff2')
+    format("woff2");
+}
+@font-face {
+  font-family: "KoPub Dotum";
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url('https://raw.githubusercontent.com/darkbrow/webfonts/refs/heads/main/woff2/KoPubWorld Dotum Bold.woff2')
+    format("woff2");
+}
+
+.novel-viewer {
+  font-family: 'KoPub Batang';
+  font-weight: 500;
+}
